@@ -287,6 +287,6 @@ func main() {
 
 		previousStates = MonitorDomains(config, previousStates)
 
-		time.Sleep(time.Duration(config.Interval-4) * time.Minute)
+		time.Sleep(time.Duration(config.Interval) * time.Minute)
 	}
 }
